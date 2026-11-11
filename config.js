@@ -1,0 +1,5 @@
+module.exports = {
+  SENDER: "maev3r_ck.testnet",
+  VENDOR: "leashpay-vendor-4821.testnet",
+  LIVE: process.env.LIVE === "1",
+};
