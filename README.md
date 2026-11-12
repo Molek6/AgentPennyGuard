@@ -1,4 +1,4 @@
-# LeashPay
+# AgentPennyGuard
 
 **A spending-limited wallet for AI agents, built on NEAR testnet.**
 
@@ -10,9 +10,9 @@ Built for NEAR HACKATHON 2026. Demo post: DEMO-POST-LINK
 
 Giving an AI agent money is risky. One prompt injection or one bad decision can empty a wallet. People need a way to let agents pay for things on their own without giving them unlimited power.
 
-## What LeashPay does
+## What AgentPennyGuard does
 
-LeashPay sits between an AI agent and a NEAR wallet. The agent can ask to make a payment, but every request is checked against rules the human sets. Only requests that pass are sent to the blockchain.
+AgentPennyGuard sits between an AI agent and a NEAR wallet. The agent can ask to make a payment, but every request is checked against rules the human sets. Only requests that pass are sent to the blockchain.
 
 The rules in this prototype:
 
@@ -52,7 +52,7 @@ Requirements: [Node.js](https://nodejs.org) (LTS version). No installs are neede
    ```
    node server.js
    ```
-   **Expected:** it prints `LeashPay running at http://localhost:3000 | payments: simulated | agent: built-in parser`
+   **Expected:** it prints `AgentPennyGuard running at http://localhost:3000 | payments: simulated | agent: built-in parser`
 2. Open http://localhost:3000.
    **Expected:** a line at the top showing the mode, the rules, and the allowed recipient.
 3. Click **Example: normal payment**, then **Ask agent**.
