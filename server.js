@@ -135,7 +135,7 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(3000, () =>
   console.log(
-    "LeashPay running at http://localhost:3000 | payments: " + (config.LIVE ? "LIVE testnet" : "simulated") +
+    "AgentPennyGuard running at http://localhost:3000 | payments: " + (config.LIVE ? "LIVE testnet" : "simulated") +
     " | agent: " + (process.env.NEARAI_API_KEY ? "NEAR AI Cloud" : "built-in parser")
   )
 );

@@ -1,4 +1,4 @@
-// LeashPay policy engine: decides whether an AI agent's payment is allowed.
+// AgentPennyGuard policy engine: decides whether an AI agent's payment is allowed.
 const config = require("./config");
 
 const rules = {
